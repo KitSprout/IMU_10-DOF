@@ -3,7 +3,7 @@
 * File Name   : Readme.md
 * Author      : Hom19910422
 * Version     : v1.1
-* Update      : 2013/09/13
+* Update      : 2013/09/29
 * Description : IMU_10-DOF Information
 * Wiki        : https://github.com/Hom19910422/IMU_10-DOF/wiki
 
