@@ -2,7 +2,7 @@
 ========
 * Author  : [Hom](https://github.com/Hom19910422)
 * Version : v1.1
-* Update  : 2013/12/14
+* Update  : 2014/01/02
 
 Description
 ========
@@ -10,11 +10,15 @@ IMU-10DOF 是一個慣性測量 ( [IMU](http://en.wikipedia.org/wiki/Inertial_me
 
 Hardware
 ========
-* 使用 [MPU-9150](http://www.invensense.com/mems/gyro/mpu9150.html) + [MS5611](http://www.meas-spec.com/product/pressure/MS5611-01BA03.aspx)
-* 相容 [MPU-6050](http://www.invensense.com/mems/gyro/mpu6050.html)
+* 使用 [MPU-9150](http://www.invensense.com/mems/gyro/mpu9150.html) + [MS5611](http://www.meas-spec.com/product/pressure/MS5611-01BA03.aspx) 
+* 相容 [MPU-6050](http://www.invensense.com/mems/gyro/mpu6050.html) 
+* 設計軟體 [Altium Designer 13](http://www.altium.com/en/products/altium-designer) ( [PcbLib](https://github.com/CYACAcademic/AltiumDesigner_PcbLibrary) use AD PcbLib v0.1 ) 
+* PCB 尺寸 : 13.46 * 11.68mm ( 半孔 : 12.45 * 11.68mm ) 
 
-* 設計軟體 [Altium Designer 13](http://www.altium.com/en/products/altium-designer) ( [PcbLib](https://github.com/CYACAcademic/AltiumDesigner_PcbLibrary) use AD PcbLib v0.1 )
-* PCB 尺寸 : 13.46 * 11.68mm ( 半孔 : 12.45 * 11.68mm )  
+IMU_10-DOF v2.0 預計修改：  
+>1. Sensor 改為 SPI 操作的 MPU-9250，來增加讀取速度。  
+>2. MS5611 也將改為 SPI 讀取，與 MPU-9250 共用 SPI。  
+>3. 體積將小幅度縮小，同時兼容 SPI 操作的 MPU-6500。  
 
 Related Documents
 ========
